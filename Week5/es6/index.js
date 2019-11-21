@@ -24,7 +24,7 @@ runForLoop(['cat', 'dog']);
 
 //Question #2
 const carrots = ['bright orange', 'ripe', 'rotten'];
-mapVegetables = arr => arr.map(carrot => [{type: 'carrot', name: carrot}]);
+mapVegetables = arr => arr.map(carrot => ({type: 'carrot', name: carrot}));
 console.log(mapVegetables(carrots));
 
 
